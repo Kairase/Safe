@@ -14,7 +14,7 @@ def main():
 	global password
 	password = str(set_password())
 
-	if enter_password() == True:
+	if enter_password():
 		print("Поздравляю, у тебя получилось взломать программу! Ты крутой праграммист!")
 		while True:
 			pass
